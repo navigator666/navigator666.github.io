@@ -1,0 +1,69 @@
+/* Center ONLY the index (home) page */
+body.home {
+  text-align: center;
+}
+
+/* Centered page, left-aligned text (content pages) */
+body.content {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+body.home nav {
+  margin-top: 1.5rem;
+}
+
+/* Shaded buttons – index page only */
+body.home nav a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 0.4rem;
+  border: 1px solid #111;
+  border-radius: 6px;
+  background: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: #111;
+}
+
+body.home nav a:hover {
+  background: #e6e6e6;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+font-size: 16px;
+background-color: #fafafa;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
+.note {
+  color: #949292;
+  font-size: 0.9em;
+  font-style: Arial;
+  font-weight: bold;
+}
+
+
+
